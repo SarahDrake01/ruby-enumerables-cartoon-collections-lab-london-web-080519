@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(short_words)
   counter = 0
-  while counter < short_words.length do 
+  while counter < short_words.length do
     if (short_words[counter].length > 4)
       return true
     end
@@ -22,7 +22,7 @@ def long_planeteer_calls(short_words)
   end
   return false
 end
-  
+
 end
 
 def find_the_cheese# code an argument here
