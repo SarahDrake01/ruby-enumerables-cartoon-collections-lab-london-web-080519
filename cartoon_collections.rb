@@ -1,6 +1,11 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
-end
+
+def roll_call_dwarves(array)
+  count = 0 
+  while count < array.length 
+    puts "#{count + 1}. #{array[count]}"
+    count += 1 
+  end 
+
 
 def summon_captain_planet# code an argument here
   # Your code here
