@@ -5,6 +5,7 @@ def roll_call_dwarves(array)
     puts "#{count + 1}. #{array[count]}"
     count += 1
   end
+end
 
 
 def summon_captain_planet# code an argument here
